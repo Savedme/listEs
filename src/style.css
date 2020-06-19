@@ -1,0 +1,54 @@
+body {
+  margin-top: 20px;
+  background-color: #ECEFF1;
+}
+
+.widget {
+  padding: 18px;
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.widget > input { 
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    margin-bottom: 20px;
+    border: 0 none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+  }
+
+.folder-container {
+  margin: 10px;
+  padding: 0 20px;
+  margin: 0;
+}
+
+.folder-wrapper {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.file-item,
+.folder-item {
+  margin-left: -16px;
+  padding-left: 20px;
+
+  list-style-type: none;
+}
+
+
+.folder-item {
+  font-weight: bold;
+}
+
+.folder-item2 {
+  font-weight: lighter;
+}
+
+.folder-item2 .file-item{
+  visibility: collapse;
+}
